@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 137, 137);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(255, 255, 255);
+            padding: 3px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.589);
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(136, 133, 133);
+            font-weight: bold;
+            margin-right: 30px;
+            
+
+        }
+
+        nav > :hover {
+           text-decoration: underline; 
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.534);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(133, 132, 132);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Meu Site</h1>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium repellat dicta pariatur quis alias harum quam obcaecati similique atque explicabo quidem debitis enim velit totam laboriosam rerum, vel suscipit!</p>
+                <aside>
+                    <p>artigo escrito por mark</p>
+                </aside>
+
+            </article>
+
+        </section>
+    </main>
+<footer>
+    <p>desenvolvendido por ViniX</p>
+</footer>
+    
+    
+    
+</body>
+</html>
