@@ -14,7 +14,6 @@
     margin: 0px;
 }
 
-
 header {
 
     height: 200px;
@@ -25,6 +24,7 @@ header {
     font-family: var(--fonttitulo);
     font-style: normal;
     text-decoration: none;
+    box-shadow: black 0px -9px 30px 4px;;
 }
 
 header a {
@@ -54,13 +54,37 @@ main article {
 
 }
 
+  main article p {
+    font-family: var(--fonttexto);
+    font-style: normal;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
 #imagem-1 {
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 450px;
     width: 600px;
     
+}
+
+#imagem-1 p {
+    font-family: var(--fonttexto);
+    font-style: normal;
+    padding-top: 100px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    text-align: left;
+    font-size: 20px;
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+
 }
