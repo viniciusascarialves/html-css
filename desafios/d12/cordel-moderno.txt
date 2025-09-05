@@ -1,7 +1,6 @@
 Cordel Moderno
 Por Milton Duarte
 [SITE: https://www.recantodasletras.com.br/poesias/3186743]
-(obs utilizado para criar o arquivo,utilizar para facilitar, agilizar o processo de criacao)
 
 Estou ficando cansado
 Da tal tecnologia
@@ -67,4 +66,4 @@ Dois pontos são dois joelhos
 Seus lábios são aparelhos
 Deixe que Deus interprete.
 
-//-- significa a separacao entre elas!, lembrese
+//-- significa a separacao entre elas!
