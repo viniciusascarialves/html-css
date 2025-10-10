@@ -8,6 +8,24 @@
 <body>
 
     <h1>Teste de Formulario</h1>
+    <form action="cadastro.php" method="post"  autocomplete="on">
+
+        <p>
+          <label for="isu">Usuario</label>
+          <input type="text" name="usu" id="isu" required minlength="5" maxlength="15" autocomplete="username" size="15">
+        </p>
+
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" autocomplete="current-password" size="10">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
     
 </body>
 </html>
