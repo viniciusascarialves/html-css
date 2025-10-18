@@ -22,11 +22,11 @@ header > h1 {
 
 menu ul {
     list-style-type: none;
-    background-color: gray;
+    background-color: rgb(126, 126, 126);
 }
 
 menu li {
-    background-color: lightgray;
+    background-color: rgb(88, 88, 88);
     color: white;
     display: inline-block;
     padding: 10px;
